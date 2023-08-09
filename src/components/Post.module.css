@@ -1,0 +1,12 @@
+.post{
+    background-color: darkcyan;
+    border-radius: 5px;
+    list-style: none;
+    padding: 15px;
+
+}
+
+.author, .body{
+    font-weight: 600;
+    font-size: 20px;
+}

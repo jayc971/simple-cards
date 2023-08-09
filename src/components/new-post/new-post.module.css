@@ -1,0 +1,51 @@
+:root{
+    --bgcolor: #6233b9;
+    --fontcolor: #eadbfb;
+}
+
+
+.form{
+    background-color: var(--bgcolor);
+    padding: 1rem;
+    width: 20rem;
+}
+
+.form label{
+    display: block;
+    margin-bottom: 0.05rem;
+    color: #eadbfb;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form textarea{
+    width: 100%;
+}
+
+.actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.actions button {
+    padding: 0.5rem;
+    background-color: var(--bgcolor);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color:  var(--fontcolor);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.actions button:not(:last-child) {
+    border: none;
+}
+
+.actions button:hover{
+    background-color:  var(--fontcolor);
+    color: var(--bgcolor);
+    transition: .5s;
+}

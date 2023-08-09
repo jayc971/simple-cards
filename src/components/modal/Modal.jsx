@@ -1,0 +1,13 @@
+import styles from './Modal.module.css';
+import { useState } from 'react';
+
+function Modal({children, onClose}){
+    return <>
+    <div className={styles.backdrop} onClick={onClose}/>
+        <dialog open className={styles.modal}>
+            {children}
+        </dialog>
+    </>
+}
+
+export default Modal;
